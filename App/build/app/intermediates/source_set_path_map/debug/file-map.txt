@@ -1,0 +1,33 @@
+com.example.wallpaper_app-jetified-savedstate-1.2.1-0 C:\Users\WALTON\.gradle\caches\transforms-3\202688fe2c9692d9449acb737c649a01\transformed\jetified-savedstate-1.2.1\res
+com.example.wallpaper_app-jetified-lifecycle-process-2.7.0-1 C:\Users\WALTON\.gradle\caches\transforms-3\36506f3c1adf4ae6d2c1381d7f3093e0\transformed\jetified-lifecycle-process-2.7.0\res
+com.example.wallpaper_app-jetified-annotation-experimental-1.4.0-2 C:\Users\WALTON\.gradle\caches\transforms-3\4586a982b80c5dc60a1f8b1bc8ee3d92\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.wallpaper_app-jetified-window-java-1.2.0-3 C:\Users\WALTON\.gradle\caches\transforms-3\5ef6b6db1e65a8c1d577684d34622d50\transformed\jetified-window-java-1.2.0\res
+com.example.wallpaper_app-lifecycle-runtime-2.7.0-4 C:\Users\WALTON\.gradle\caches\transforms-3\66716fadecaf4231b8eaf9c797ed4ac8\transformed\lifecycle-runtime-2.7.0\res
+com.example.wallpaper_app-jetified-activity-1.10.1-5 C:\Users\WALTON\.gradle\caches\transforms-3\6bb95e3a71c6423ba430184f4d61734f\transformed\jetified-activity-1.10.1\res
+com.example.wallpaper_app-jetified-window-1.2.0-6 C:\Users\WALTON\.gradle\caches\transforms-3\7fae3d8a6b0dc3cfe87a44f76d6d39f1\transformed\jetified-window-1.2.0\res
+com.example.wallpaper_app-core-1.13.1-7 C:\Users\WALTON\.gradle\caches\transforms-3\80ba883d0f31a4e420955a83927e195f\transformed\core-1.13.1\res
+com.example.wallpaper_app-lifecycle-viewmodel-2.7.0-8 C:\Users\WALTON\.gradle\caches\transforms-3\947f2a7425b3b69992cbd6e6c9872957\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.wallpaper_app-jetified-lifecycle-viewmodel-savedstate-2.7.0-9 C:\Users\WALTON\.gradle\caches\transforms-3\a1c441e29000d4f4833b94a294afe6e3\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.wallpaper_app-jetified-core-viewtree-1.0.0-10 C:\Users\WALTON\.gradle\caches\transforms-3\a2210b60b65242ec1f733b11507836d3\transformed\jetified-core-viewtree-1.0.0\res
+com.example.wallpaper_app-jetified-core-ktx-1.13.1-11 C:\Users\WALTON\.gradle\caches\transforms-3\a3d96fa23f5a9c6da45f3197cb2b78e8\transformed\jetified-core-ktx-1.13.1\res
+com.example.wallpaper_app-jetified-tracing-1.2.0-12 C:\Users\WALTON\.gradle\caches\transforms-3\aaad33a90c79205975516ad3b22313a2\transformed\jetified-tracing-1.2.0\res
+com.example.wallpaper_app-jetified-profileinstaller-1.4.0-13 C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\res
+com.example.wallpaper_app-browser-1.8.0-14 C:\Users\WALTON\.gradle\caches\transforms-3\c43df168aef90bb24cece467c2b4abee\transformed\browser-1.8.0\res
+com.example.wallpaper_app-jetified-lifecycle-livedata-core-ktx-2.7.0-15 C:\Users\WALTON\.gradle\caches\transforms-3\c96ff6ff6ab2538058259f2d4f945e85\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.example.wallpaper_app-lifecycle-livedata-2.7.0-16 C:\Users\WALTON\.gradle\caches\transforms-3\da046689129a5b76bea6a1054f0d23a4\transformed\lifecycle-livedata-2.7.0\res
+com.example.wallpaper_app-core-runtime-2.2.0-17 C:\Users\WALTON\.gradle\caches\transforms-3\ece9d670b4bef63f8b625759d4bb1349\transformed\core-runtime-2.2.0\res
+com.example.wallpaper_app-lifecycle-livedata-core-2.7.0-18 C:\Users\WALTON\.gradle\caches\transforms-3\f1941a2fc928b04fd6710917da013ce5\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.wallpaper_app-jetified-core-1.0.0-19 C:\Users\WALTON\.gradle\caches\transforms-3\f8deec621f1860e08831a1687f8c7ff7\transformed\jetified-core-1.0.0\res
+com.example.wallpaper_app-jetified-startup-runtime-1.1.1-20 C:\Users\WALTON\.gradle\caches\transforms-3\fa8e4cc554620b2ce921ece366d432ec\transformed\jetified-startup-runtime-1.1.1\res
+com.example.wallpaper_app-fragment-1.7.1-21 C:\Users\WALTON\.gradle\caches\transforms-3\fb0eb3a591c9cb6b045a71b0964c261e\transformed\fragment-1.7.1\res
+com.example.wallpaper_app-debug-22 E:\Flutter Projects\Wallpaper App\android\app\src\debug\res
+com.example.wallpaper_app-main-23 E:\Flutter Projects\Wallpaper App\android\app\src\main\res
+com.example.wallpaper_app-pngs-24 E:\Flutter Projects\Wallpaper App\build\app\generated\res\pngs\debug
+com.example.wallpaper_app-resValues-25 E:\Flutter Projects\Wallpaper App\build\app\generated\res\resValues\debug
+com.example.wallpaper_app-packageDebugResources-26 E:\Flutter Projects\Wallpaper App\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.wallpaper_app-packageDebugResources-27 E:\Flutter Projects\Wallpaper App\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.wallpaper_app-merged_res-28 E:\Flutter Projects\Wallpaper App\build\app\intermediates\merged_res\debug
+com.example.wallpaper_app-packaged_res-29 E:\Flutter Projects\Wallpaper App\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
+com.example.wallpaper_app-packaged_res-30 E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\packaged_res\debug
+com.example.wallpaper_app-packaged_res-31 E:\Flutter Projects\Wallpaper App\build\path_provider_android\intermediates\packaged_res\debug
+com.example.wallpaper_app-packaged_res-32 E:\Flutter Projects\Wallpaper App\build\url_launcher_android\intermediates\packaged_res\debug

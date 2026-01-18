@@ -1,0 +1,1 @@
+ E:\\Flutter\ Projects\\Wallpaper\ App\\.dart_tool\\flutter_build\\da36ff6b8c57978e6f1bc0f2e4546cd4\\native_assets.yaml: 

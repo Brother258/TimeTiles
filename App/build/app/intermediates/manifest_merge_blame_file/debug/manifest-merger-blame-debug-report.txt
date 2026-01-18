@@ -1,0 +1,307 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.wallpaper_app"
+4    android:versionCode="2"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Permission to bind wallpaper service -->
+12    <uses-permission android:name="android.permission.BIND_WALLPAPER" />
+12-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:5:5-73
+12-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:5:22-70
+13
+14    <!-- Permission to set alarms for midnight updates -->
+15    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+15-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:8:5-79
+15-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:8:22-76
+16
+17    <!-- Permission to receive boot completed for re-scheduling alarms -->
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:11:5-81
+18-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:11:22-78
+19
+20    <!-- Declare that this app uses the wallpaper feature -->
+21    <uses-feature
+21-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:14:5-16:35
+22        android:name="android.software.live_wallpaper"
+22-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:15:9-55
+23        android:required="true" />
+23-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:16:9-32
+24
+25    <!-- Required for the flutter_local_notifications plugin -->
+26    <queries>
+26-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:90:5-95:15
+27        <intent>
+27-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:91:9-94:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:92:13-65
+28-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:92:21-62
+29
+30            <data android:scheme="https" />
+30-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:93:13-44
+30-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:93:19-41
+31        </intent>
+32    </queries>
+33
+34    <permission
+34-->[androidx.core:core:1.13.1] C:\Users\WALTON\.gradle\caches\transforms-3\80ba883d0f31a4e420955a83927e195f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.wallpaper_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.13.1] C:\Users\WALTON\.gradle\caches\transforms-3\80ba883d0f31a4e420955a83927e195f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.13.1] C:\Users\WALTON\.gradle\caches\transforms-3\80ba883d0f31a4e420955a83927e195f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.wallpaper_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.13.1] C:\Users\WALTON\.gradle\caches\transforms-3\80ba883d0f31a4e420955a83927e195f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.13.1] C:\Users\WALTON\.gradle\caches\transforms-3\80ba883d0f31a4e420955a83927e195f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+39
+40    <application
+41        android:name="android.app.Application"
+41-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:20:9-42
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.13.1] C:\Users\WALTON\.gradle\caches\transforms-3\80ba883d0f31a4e420955a83927e195f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+43        android:debuggable="true"
+44        android:extractNativeLibs="true"
+45        android:icon="@mipmap/ic_launcher"
+45-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:21:9-43
+46        android:label="TimeTiles" >
+46-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:19:9-34
+47
+48        <!-- Main Flutter Activity -->
+49        <activity
+49-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:24:9-46:20
+50            android:name="com.example.wallpaper_app.MainActivity"
+50-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:25:13-41
+51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+51-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:30:13-163
+52            android:exported="true"
+52-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:26:13-36
+53            android:hardwareAccelerated="true"
+53-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:31:13-47
+54            android:launchMode="singleTop"
+54-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:27:13-43
+55            android:taskAffinity=""
+55-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:28:13-36
+56            android:theme="@style/LaunchTheme"
+56-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:29:13-47
+57            android:windowSoftInputMode="adjustResize" >
+57-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:32:13-55
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+65-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:38:13-40:57
+66                android:name="io.flutter.embedding.android.NormalTheme"
+66-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:39:17-72
+67                android:resource="@style/NormalTheme" />
+67-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:40:17-54
+68
+69            <intent-filter>
+69-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:42:13-45:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:43:17-69
+70-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:43:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:44:17-77
+72-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:44:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <!-- Live Wallpaper Service -->
+77        <service
+77-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:49:9-62:19
+78            android:name="com.example.wallpaper_app.YearWallpaperService"
+78-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:50:13-49
+79            android:exported="true"
+79-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:51:13-36
+80            android:label="Year Progress"
+80-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:52:13-42
+81            android:permission="android.permission.BIND_WALLPAPER" >
+81-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:53:13-67
+82            <intent-filter>
+82-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:55:13-57:29
+83                <action android:name="android.service.wallpaper.WallpaperService" />
+83-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:56:17-85
+83-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:56:25-82
+84            </intent-filter>
+85
+86            <meta-data
+86-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:59:13-61:53
+87                android:name="android.service.wallpaper"
+87-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:60:17-57
+88                android:resource="@xml/wallpaper" />
+88-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:61:17-50
+89        </service>
+90
+91        <!-- Broadcast receiver for midnight alarm -->
+92        <receiver
+92-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:65:9-71:20
+93            android:name="com.example.wallpaper_app.MidnightReceiver"
+93-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:66:13-45
+94            android:exported="false" >
+94-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:67:13-37
+95            <intent-filter>
+95-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:68:13-70:29
+96                <action android:name="com.example.wallpaper_app.ACTION_REDRAW" />
+96-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:69:17-82
+96-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:69:25-79
+97            </intent-filter>
+98        </receiver>
+99
+100        <!-- Boot receiver to reschedule alarms after device restart -->
+101        <receiver
+101-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:74:9-80:20
+102            android:name="com.example.wallpaper_app.BootReceiver"
+102-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:75:13-41
+103            android:exported="false" >
+103-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:76:13-37
+104            <intent-filter>
+104-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:77:13-79:29
+105                <action android:name="android.intent.action.BOOT_COMPLETED" />
+105-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:78:17-79
+105-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:78:25-76
+106            </intent-filter>
+107        </receiver>
+108
+109        <!--
+110             Don't delete the meta-data below.
+111             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+112        -->
+113        <meta-data
+113-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:84:9-86:33
+114            android:name="flutterEmbedding"
+114-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:85:13-44
+115            android:value="2" />
+115-->E:\Flutter Projects\Wallpaper App\android\app\src\main\AndroidManifest.xml:86:13-30
+116
+117        <provider
+117-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-17:20
+118            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+118-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-82
+119            android:authorities="com.example.wallpaper_app.flutter.image_provider"
+119-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+120            android:exported="false"
+120-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+121            android:grantUriPermissions="true" >
+121-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-47
+122            <meta-data
+122-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+123                android:name="android.support.FILE_PROVIDER_PATHS"
+123-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+124                android:resource="@xml/flutter_image_picker_file_paths" />
+124-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+125        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+126        <service
+126-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-31:19
+127            android:name="com.google.android.gms.metadata.ModuleDependencies"
+127-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-78
+128            android:enabled="false"
+128-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-36
+129            android:exported="false" >
+129-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+130            <intent-filter>
+130-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+131                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+131-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-94
+131-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-91
+132            </intent-filter>
+133
+134            <meta-data
+134-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:36
+135                android:name="photopicker_activity:0:required"
+135-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-63
+136                android:value="" />
+136-->[:image_picker_android] E:\Flutter Projects\Wallpaper App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-33
+137        </service>
+138
+139        <activity
+139-->[:url_launcher_android] E:\Flutter Projects\Wallpaper App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+140            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+140-->[:url_launcher_android] E:\Flutter Projects\Wallpaper App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+141            android:exported="false"
+141-->[:url_launcher_android] E:\Flutter Projects\Wallpaper App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+142            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+142-->[:url_launcher_android] E:\Flutter Projects\Wallpaper App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+143
+144        <uses-library
+144-->[androidx.window:window:1.2.0] C:\Users\WALTON\.gradle\caches\transforms-3\7fae3d8a6b0dc3cfe87a44f76d6d39f1\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+145            android:name="androidx.window.extensions"
+145-->[androidx.window:window:1.2.0] C:\Users\WALTON\.gradle\caches\transforms-3\7fae3d8a6b0dc3cfe87a44f76d6d39f1\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+146            android:required="false" />
+146-->[androidx.window:window:1.2.0] C:\Users\WALTON\.gradle\caches\transforms-3\7fae3d8a6b0dc3cfe87a44f76d6d39f1\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+147        <uses-library
+147-->[androidx.window:window:1.2.0] C:\Users\WALTON\.gradle\caches\transforms-3\7fae3d8a6b0dc3cfe87a44f76d6d39f1\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+148            android:name="androidx.window.sidecar"
+148-->[androidx.window:window:1.2.0] C:\Users\WALTON\.gradle\caches\transforms-3\7fae3d8a6b0dc3cfe87a44f76d6d39f1\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+149            android:required="false" />
+149-->[androidx.window:window:1.2.0] C:\Users\WALTON\.gradle\caches\transforms-3\7fae3d8a6b0dc3cfe87a44f76d6d39f1\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+150
+151        <provider
+151-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\WALTON\.gradle\caches\transforms-3\36506f3c1adf4ae6d2c1381d7f3093e0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+152            android:name="androidx.startup.InitializationProvider"
+152-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\WALTON\.gradle\caches\transforms-3\36506f3c1adf4ae6d2c1381d7f3093e0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+153            android:authorities="com.example.wallpaper_app.androidx-startup"
+153-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\WALTON\.gradle\caches\transforms-3\36506f3c1adf4ae6d2c1381d7f3093e0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+154            android:exported="false" >
+154-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\WALTON\.gradle\caches\transforms-3\36506f3c1adf4ae6d2c1381d7f3093e0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+155            <meta-data
+155-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\WALTON\.gradle\caches\transforms-3\36506f3c1adf4ae6d2c1381d7f3093e0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+156                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+156-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\WALTON\.gradle\caches\transforms-3\36506f3c1adf4ae6d2c1381d7f3093e0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+157                android:value="androidx.startup" />
+157-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\WALTON\.gradle\caches\transforms-3\36506f3c1adf4ae6d2c1381d7f3093e0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+158            <meta-data
+158-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+159                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+159-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+160                android:value="androidx.startup" />
+160-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+161        </provider>
+162
+163        <receiver
+163-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+164            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+164-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+165            android:directBootAware="false"
+165-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+166            android:enabled="true"
+166-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+167            android:exported="true"
+167-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+168            android:permission="android.permission.DUMP" >
+168-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+169            <intent-filter>
+169-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+170                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+170-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+170-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+171            </intent-filter>
+172            <intent-filter>
+172-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+173                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+174            </intent-filter>
+175            <intent-filter>
+175-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+176                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+176-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+176-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+177            </intent-filter>
+178            <intent-filter>
+178-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+179                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\WALTON\.gradle\caches\transforms-3\ba34fcf73f035ec30e9a8d10a173c76b\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+180            </intent-filter>
+181        </receiver>
+182    </application>
+183
+184</manifest>

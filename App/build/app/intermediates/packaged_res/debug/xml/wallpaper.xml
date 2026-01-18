@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wallpaper metadata file -->
+<!-- Defines properties for the TimeTiles live wallpaper -->
+<wallpaper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="TimeTiles"
+    android:description="@string/wallpaper_description"
+    android:thumbnail="@drawable/wallpaper_thumbnail"
+    android:settingsActivity="com.example.wallpaper_app.MainActivity" />

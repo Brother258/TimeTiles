@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DayMosaic Launcher Icon Foreground - Professional mosaic grid design -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background gradient circle -->
+    <path
+        android:fillColor="#667eea"
+        android:pathData="M54,20 A34,34 0 1,1 53.99,20 Z"/>
+    
+    <!-- Inner gradient overlay -->
+    <path
+        android:fillColor="#764ba2"
+        android:fillAlpha="0.6"
+        android:pathData="M54,25 A29,29 0 1,1 53.99,25 Z"/>
+    
+    <!-- Mosaic Grid Pattern - 4x4 grid with varying colors -->
+    <!-- Row 1 - Past days (green tones) -->
+    <path android:fillColor="#4ADE80" android:pathData="M33,36h10v10h-10z"/>
+    <path android:fillColor="#22C55E" android:pathData="M45,36h10v10h-10z"/>
+    <path android:fillColor="#16A34A" android:pathData="M57,36h10v10h-10z"/>
+    <path android:fillColor="#FACC15" android:pathData="M69,36h6v10h-6z"/>
+    
+    <!-- Row 2 -->
+    <path android:fillColor="#4ADE80" android:pathData="M33,48h10v10h-10z"/>
+    <path android:fillColor="#22C55E" android:pathData="M45,48h10v10h-10z"/>
+    <path android:fillColor="#FB923C" android:pathData="M57,48h10v10h-10z"/>
+    <path android:fillColor="#6B7280" android:pathData="M69,48h6v10h-6z"/>
+    
+    <!-- Row 3 -->
+    <path android:fillColor="#4ADE80" android:pathData="M33,60h10v10h-10z"/>
+    <path android:fillColor="#6B7280" android:pathData="M45,60h10v10h-10z"/>
+    <path android:fillColor="#6B7280" android:pathData="M57,60h10v10h-10z"/>
+    <path android:fillColor="#6B7280" android:pathData="M69,60h6v10h-6z"/>
+    
+    <!-- Subtle glow effect on current day -->
+    <path
+        android:fillColor="#FB923C"
+        android:fillAlpha="0.4"
+        android:pathData="M55,46 A8,8 0 1,1 54.99,46 Z"/>
+    
+    <!-- Decorative corner accents -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.2"
+        android:pathData="M28,28 L36,28 L28,36 Z"/>
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.1"
+        android:pathData="M80,28 L80,36 L72,28 Z"/>
+</vector>

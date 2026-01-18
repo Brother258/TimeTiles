@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#1A1A2E</color>
+    <string name="app_name">TimeTiles</string>
+    <string name="wallpaper_description">A stunning live wallpaper that transforms your year into beautiful tiles of time. Track your progress with customizable colors, gradients, and inspiring daily quotes.</string>
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

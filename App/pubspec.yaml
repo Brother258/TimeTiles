@@ -1,0 +1,24 @@
+name: timetiles
+description: "TimeTiles - Beautiful Year Progress Live Wallpaper"
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.2.1
+  flutter_colorpicker: ^1.0.3
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
